@@ -1,0 +1,20 @@
+<IfModule mod_rewrite.c>
+
+RewriteEngine On
+Options +FollowSymlinks
+
+RewriteBase /
+
+RewriteCond %{REQUEST_URI}::$1 ^(.*?/)(.*)::\2$
+RewriteRule ^(.*)$ - [E=BASE:%1]
+
+# Change any `/default/` according to your app name
+
+RewriteCond %{REQUEST_URI} !/apps/default/public/
+RewriteRule ^(.*)$ %{ENV:BASE}apps/default/public/$1 [L,QSA]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ %{ENV:BASE}apps/default/public/index.php [L,QSA]
+
+</IfModule>

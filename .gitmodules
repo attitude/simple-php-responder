@@ -1,0 +1,3 @@
+[submodule "apps/default"]
+	path = apps/default
+	url = git@github.com:attitude/simple-php-responder-app.git

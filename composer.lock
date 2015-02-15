@@ -1,0 +1,312 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "3082108745615076f4d19c7a552085b2",
+    "packages": [
+        {
+            "name": "attitude/Elements",
+            "version": "v0.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/attitude/elements.git",
+                "reference": "60dfb9545eb2a8f78a778880adbd814c18acda69"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/attitude/elements/zipball/60dfb9545eb2a8f78a778880adbd814c18acda69",
+                "reference": "60dfb9545eb2a8f78a778880adbd814c18acda69",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Elements": ""
+                }
+            },
+            "support": {
+                "source": "https://github.com/attitude/elements/tree/v0.2.1",
+                "issues": "https://github.com/attitude/elements/issues"
+            },
+            "time": "2014-11-01 16:59:26"
+        },
+        {
+            "name": "attitude/Elements/Singleton",
+            "version": "v0.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/attitude/elements-singleton.git",
+                "reference": "15d04a8a24c5535f1082901d14c1b37354ec56d4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/attitude/elements-singleton/zipball/15d04a8a24c5535f1082901d14c1b37354ec56d4",
+                "reference": "15d04a8a24c5535f1082901d14c1b37354ec56d4",
+                "shasum": ""
+            },
+            "type": "library",
+            "support": {
+                "source": "https://github.com/attitude/elements-singleton/tree/v0.2.0",
+                "issues": "https://github.com/attitude/elements-singleton/issues"
+            },
+            "time": "2014-03-24 10:42:03"
+        },
+        {
+            "name": "attitude/FlatYAMLDB",
+            "version": "v0.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/attitude/flat-yaml-db.git",
+                "reference": "e42d1ce0d9e2f577e8803362e45ce3c156867daf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/attitude/flat-yaml-db/zipball/e42d1ce0d9e2f577e8803362e45ce3c156867daf",
+                "reference": "e42d1ce0d9e2f577e8803362e45ce3c156867daf",
+                "shasum": ""
+            },
+            "require": {
+                "attitude/elements": "~0.2.0",
+                "attitude/functions/is_assoc_array": "dev-master",
+                "symfony/yaml": "dev-master"
+            },
+            "type": "library",
+            "support": {
+                "source": "https://github.com/attitude/flat-yaml-db/tree/v0.4.0",
+                "issues": "https://github.com/attitude/flat-yaml-db/issues"
+            },
+            "time": "2014-11-05 13:17:29"
+        },
+        {
+            "name": "attitude/Functions/generate_slug",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://gist.github.com/9842170.git",
+                "reference": "e16cec9bcad1bd3be257b695475cbc5db78764ef"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "function-generate_slug.php"
+                ]
+            },
+            "time": "2014-03-28 21:37:18"
+        },
+        {
+            "name": "attitude/Functions/is_assoc_array",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://gist.github.com/9768220.git",
+                "reference": "d62e9a937db02ca08ad95aedff53df48bf4abe69"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "function-is_assoc_array.php"
+                ]
+            },
+            "time": "2014-03-28 22:12:21"
+        },
+        {
+            "name": "attitude/Mustache/AtomicLoader",
+            "version": "v0.6.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/attitude/mustache-atomic-loader.git",
+                "reference": "e2d4c38c49bf919b737df30406d7d5afad1fbabc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/attitude/mustache-atomic-loader/zipball/e2d4c38c49bf919b737df30406d7d5afad1fbabc",
+                "reference": "e2d4c38c49bf919b737df30406d7d5afad1fbabc",
+                "shasum": ""
+            },
+            "type": "library",
+            "support": {
+                "source": "https://github.com/attitude/mustache-atomic-loader/tree/v0.6.6",
+                "issues": "https://github.com/attitude/mustache-atomic-loader/issues"
+            },
+            "time": "2014-10-27 19:42:59"
+        },
+        {
+            "name": "attitude/Mustache/DataPreprocessor",
+            "version": "v0.3.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/attitude/mustache-data-preprocessor.git",
+                "reference": "b808d8cc7d01b9e27fc1212d661665d4c7b29da7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/attitude/mustache-data-preprocessor/zipball/b808d8cc7d01b9e27fc1212d661665d4c7b29da7",
+                "reference": "b808d8cc7d01b9e27fc1212d661665d4c7b29da7",
+                "shasum": ""
+            },
+            "require": {
+                "attitude/elements": "~0.2.0",
+                "attitude/elements/singleton": "~0.2.0"
+            },
+            "require-dev": {
+                "attitude/functions/generate_slug": "dev-master"
+            },
+            "type": "library",
+            "support": {
+                "source": "https://github.com/attitude/mustache-data-preprocessor/tree/v0.3.1",
+                "issues": "https://github.com/attitude/mustache-data-preprocessor/issues"
+            },
+            "time": "2015-03-13 13:08:17"
+        },
+        {
+            "name": "erusev/parsedown",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/erusev/parsedown.git",
+                "reference": "65116c3cb0953447eac742aa4ea5fc4aaaa22db9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/erusev/parsedown/zipball/65116c3cb0953447eac742aa4ea5fc4aaaa22db9",
+                "reference": "65116c3cb0953447eac742aa4ea5fc4aaaa22db9",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Parsedown": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Emanuil Rusev",
+                    "email": "hello@erusev.com",
+                    "homepage": "http://erusev.com"
+                }
+            ],
+            "description": "Parser for Markdown.",
+            "homepage": "http://parsedown.org",
+            "keywords": [
+                "markdown",
+                "parser"
+            ],
+            "time": "2015-02-08 23:04:08"
+        },
+        {
+            "name": "mustache/mustache",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bobthecow/mustache.php.git",
+                "reference": "fdf41dd673dc99b41d60992470dbae94ae0b6ba1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bobthecow/mustache.php/zipball/fdf41dd673dc99b41d60992470dbae94ae0b6ba1",
+                "reference": "fdf41dd673dc99b41d60992470dbae94ae0b6ba1",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.4"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Mustache": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Justin Hileman",
+                    "email": "justin@justinhileman.info",
+                    "homepage": "http://justinhileman.com"
+                }
+            ],
+            "description": "A Mustache implementation in PHP.",
+            "homepage": "https://github.com/bobthecow/mustache.php",
+            "keywords": [
+                "mustache",
+                "templating"
+            ],
+            "time": "2014-08-26 19:50:10"
+        },
+        {
+            "name": "symfony/yaml",
+            "version": "dev-master",
+            "target-dir": "Symfony/Component/Yaml",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/Yaml.git",
+                "reference": "f6985a14085827f92173b72a7b224dcc448ef3f5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/Yaml/zipball/f6985a14085827f92173b72a7b224dcc448ef3f5",
+                "reference": "f6985a14085827f92173b72a7b224dcc448ef3f5",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.9"
+            },
+            "require-dev": {
+                "symfony/phpunit-bridge": "~2.7|~3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Symfony\\Component\\Yaml\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Symfony Community",
+                    "homepage": "http://symfony.com/contributors"
+                },
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                }
+            ],
+            "description": "Symfony Yaml Component",
+            "homepage": "http://symfony.com",
+            "time": "2015-03-13 10:36:02"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "attitude/functions/is_assoc_array": 20,
+        "attitude/functions/generate_slug": 20,
+        "symfony/yaml": 20,
+        "mustache/mustache": 20,
+        "erusev/parsedown": 20
+    },
+    "prefer-stable": true,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
